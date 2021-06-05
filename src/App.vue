@@ -1,15 +1,24 @@
 <template>
   <div class="app-wrapper">
     <div class="app">
+      <Navigation />
       <router-view />
+      <Footer/>
     </div>
   </div>
 </template>
 
 <script>
+
+import Navigation from "@/components/Navigation/Navigation";
+import Footer from "@/components/Footer/Footer";
+
 export default {
   name: "app",
-  components: {},
+  components: {
+    Footer,
+    Navigation
+  },
   data() {
     return {};
   },

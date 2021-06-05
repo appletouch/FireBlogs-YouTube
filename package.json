@@ -9,11 +9,14 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "//": "quill is used for the rich text editor ",
     "quill": "^1.3.7",
     "quill-image-resize-module": "^3.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+    "//": "vue-svg loader is used to import the icons",
     "vue-svg-loader": "^0.16.0",
+    "//": "vue2-editor is a Vue.js editor for rich text editing built with Vue.js and Quill.js",
     "vue2-editor": "^2.10.2",
     "vuex": "^3.4.0"
   },

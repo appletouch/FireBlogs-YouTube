@@ -4,6 +4,7 @@ import router from "./router";
 import store from "./store";
 import Vue2Editor from "vue2-editor";
 
+//vue2-editor is a Vue.js editor for rich text editing built with Vue.js and Quill.js,
 Vue.use(Vue2Editor);
 
 Vue.config.productionTip = false;
