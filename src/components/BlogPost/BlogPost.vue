@@ -6,7 +6,7 @@
       <p v-if="post.isWelcomeScreen">{{ post.blogPost }}</p>
       <p class="content-preview" v-else>{{ post.blogHTML }}</p>
       <router-link class="link link-light" v-if="post.isWelcomeScreen" to="#">Login/Register<Arrow class="arrow arrow-light"/></router-link>
-      <router-link class="link" v-else to="#">View the post<Arrow class="arrow"/></router-link>
+      <router-link class="link" v-else to="#">View this post<Arrow class="arrow"/></router-link>
     </div>
     <div class="blog-photo">
       <img v-if="post.isWelcomeScreen" :src="require(`../../assets/blogPhotos/${post.photo}.jpg`)" alt=""/>
