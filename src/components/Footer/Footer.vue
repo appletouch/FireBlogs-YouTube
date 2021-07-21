@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="right">
-        <p>Copyright Blue Dolfin Business Solutions, 2021 All Rights Reserved</p>
+        <p>Copyright Blue Dolfin Business Solutions BV, 2021-v1 All Rights Reserved</p>
       </div>
     </div>
   </footer>
